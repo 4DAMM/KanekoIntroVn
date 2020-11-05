@@ -104,13 +104,13 @@ label start:
     pname "Yeah, thanks"
     show hato standby at center
     ka "Also talking here might be boring so ..."
-    ka "Lets go upstairs and talk in my room"
+    ka "Lets go to upstairs and talk in my room"
     pname "O Ooh, Really? Sure lets go then"
     scene bg stairs
     show hato walkbehind at left
     "*Trot Trot*"
-    ka "Dont worry theres noone here right now anyway"
-    ka "So we could talk about anything intresting !"
+    ka "Dont worry theres no one home anyway"
+    ka "So we could talk about anything interesting !"
     scene bg roomexterior
     show hato handsear at right
     ka "So we have arrived at 2nd floor, lets go inside"
@@ -124,11 +124,11 @@ label start:
     scene bg bedroom
     show hato standby at center
     ka "Here we are [pname], its pretty messy right?"
-    ka "You could sit anywhere you like !"
-    pname "No, its not messy at all , its pretty tidy"
+    ka "You can sit anywhere you like !"
+    pname "No, its not messy at all and it's pretty tidy"
     ka "Thank you very much!"
     ka "Before we talk about me how about you listen to my past story?"
-    pname "So now [ka] gonna told a story about your past ?"
+    pname "So now [ka] gonna told me a story about your past ?"
     ka "Yea, pretty much like that"
     show hato standby at right
     menu:
@@ -157,26 +157,26 @@ label storymode:
     ka "Aaaaaaaa nooo im falling !!!!!"
     scene bg magicarray
     stop sound
-    ka "Wah, what is that maggic array doing over there !!!!"
-    ka "Aaaaaah ~ Im getting sucked by a maggic array !!!"
-    na "Magic arrray engulfed all of [ka]  body and her vision getting blurred as she passed out"
+    ka "Wah, what is that magic array doing over there !!!!"
+    ka "Aaaaaah ~ Im getting sucked by the magic array !!!"
+    na "Magic array engulfed all of [ka]  body and her vision is getting blurred as she passed out"
     scene bg grassland
     show hato standby at right
-    "Chrip Chrip Chrip"
+    "Chirp Chirp Chirp"
     ka "Uuuuh w-what had just happened Aaaah my head ....."
     "*looks around*"
     ka "What wait  where the fark i am ?!"
     ka "Am i in the middle of a grassland that who know where the fark it is ?!!!"
     ka "Uh what is that ? is that a building ?\nbut it was impossible that the building\ncould be so high that it could reach the sky !!"
-    ka "Stupid yagoo if its not because of you !!!,\nill not be zapped and transported here !!!!"
+    ka "Stupid yagoo if its not because of you !!!,\ni won't be zapped and transported here !!!!"
     show hato depressed at center
     ka "Crap what happen to my body !!!"
-    ka "Why am i transforming into hooman?"
+    ka "Why i am being transformed into hooman?"
     ka "My wings !!! its gone !!!"
     show hato standby at right
-    ka "Oh wait, i can still felt mana inside of me"
-    ka "Maybe i could still fly using my magic power ?!!!"
-    ka "Ah well never mind ill think about it later , now ill just explore this place"
+    ka "Oh wait, i can still felt the mana inside of me"
+    ka "Maybe i can still fly using my magic power ?!!!"
+    ka "Ah well never mind i'll think about it later , now i'll just explore this place"
     ka "Woah what is this thing on my clothes is this a wings ?"
     ka "Oh i can felt my wings , so this symbol now is my wings ?!! nice !!"
     stop sound
@@ -217,23 +217,23 @@ label introduce:
     ka "Rendang Is a meaty food made from beef meat or chicken"
     ka "You could make it by  yourself or just buy it"
     #ka "Or you can just buy it from your store !!!"
-    #ka "Also you could mix rendang with jackfruit condement"
-    #ka "So the summary is rendang taste is like a beef meat mixed with"
-    #ka "many spices and cooked with the spices untill the spices absorbed by the meat"
+    #ka "Also you could mix rendang with jackfruit side dish"
+    #ka "So the summary is rendang taste like a beef meat mixed with"
+    #ka "many spices and cooked until the spices absorbed by the meat"
     ka "Ah i also love pizza !" #", but not the one that has pineapple i find it didnt goes well\nwith the meat"
     ka "Oh sorry im getting out from the topics, Tehe ~"
     pname "Oh thats okay, i dont mind it."
     pname "So how could you became a VTuber?"
     ka "Oh i see okay after i came to this world i transformed into a pigeon that resemble hooman girl"
-    ka "And after i learn hooman culture and learn so advance things with my magic"
-    ka "I became a what that you guys called a programmer, and thats it , because i felt bored"
+    ka "And after learn hooman culture,i learn advanced things with my magic too!"
+    ka "I became someone that you guys called a programmer, and thats it , because i felt bored"
     ka "And i need more new friends , new connecion and i be came VTuber ! A Pigeon VTuber\nthat came from another world!!!"
     pname "Thats cool and such but what is your future goal [ka]? Became a hero ?! Demon slayer ?!"
-    ka "I want my subjecs and citizen to enjoy me more and make everyone happy and befirends everyone !!!"
+    ka "I want my subjects and citizen to enjoy me more and make everyone happy and befriend with each other !!!"
     pname "Woah thats a cool goal !!! what about the content?!"
     ka "For now i want to make a inspirative content , educational, gaming content because hooman likes that\nalso maybe music content in the future"
     pname "Can you tell me how old are you now?"
-    ka "Really isnt it rude in hooman culture to ask about girls age?"
+    ka "isnt it a bit rude in hooman culture to ask about girls age?"
 
     menu:
         ka "Do you still want to know how old i'am?"
@@ -249,17 +249,17 @@ label introduce:
 
 label safe:
     ka "Well it doesnt matter anyway im already 20 on hooman age, but when in pigeon age im still 16"
-    pname "Oh thats intresting"
+    pname "Oh thats interesting"
     ka "I think i will also make some movie time together with my viewers !"
     pname "And so what is your hobby?"
     ka "My hobby? Of Course i like eating , gaming , reading book, travelling around the world and many other things !!"
     "*Clock is showing 21:00 PM*"
     ka "Wow i cant believe time is passing so fast!"
     pname "Ah i think its time for me to go home"
-    ka "Yeah i agree , take care, before that"
-    ka "Please took this emblem as my gratitude for visiting me here"
-    pname "Thakyou so much [ka]"
-    ka "A ?!!! Waah You're welcome, you can visit me again anytime!! just tell me beforehand"
+    ka "Yeah i agree , take care,and before that"
+    ka "Please take this emblem as my gratitude for visiting me here"
+    pname "Thankyou so much [ka]"
+    ka "A ?!!! Waah You're welcome, you can visit me again anytime!! just tell me first!"
     pname "Okay thanks for everything [ka]"
     na "*[ka] escort [pname] outside her house & close the doors*"
     "*Peek Peek*"
@@ -274,14 +274,14 @@ label police:
     stop music fadeout 1.0
     play music combat
     ka "Aaaaaaah, W What are you crazy !!!!"
-    na "[ka] Pressing a buglary alarm button under her bed"
+    na "[ka] Pressing a burglar alarm button under her bed"
     "*Police Siren Sound*"
     play sound siren
     "MEGAPHONE : This is a police, We already got you surrounded!!!"
     "MEGAPHONE : [pname] We got you surrounded"
     pname "No No Please [ka]  Chan, Tell Me Your Age !, Please !"
-    ka "Kyaaaaa ~ Mission Success, Take THE SHOT I Repeat THE SHOT !!!"
-    na "Suddenly Theres a laser in [pname]  forehead"
+    ka "Kyaaaaa ~ Mission Success, Take THE SHOT I Repeat take THE SHOT !!!"
+    na "Suddenly There is a laser aiming at [pname]  forehead"
     "*Thump **** Splat Splat ****"
     "*Thud*"
     na "Then a few seconds later [pname]  were cease to exist"
@@ -303,7 +303,7 @@ label skiphistory:
     with fade
     show hato standby at center
     ka "So sad..... so you didnt want to know or hear about my past?\n[pname]"
-    ka "First thing first let me hear about you first okay?"
+    ka "The thing is, let me hear about you first okay?"
     pname "W What do you want to know?"
     ka "Tell me what is your age?"
     pname "My age is [age] now, i felt old already."
@@ -316,8 +316,8 @@ label skiphistory:
     ka "EHEHEHEHEH\nEHEHEHEHEHEHEHE"
     ka "EHEHEHEHEHEHEHEHEH\nEHEHEHEH"
     na "Kaneko grabs a box from under the bed and open it, she wears the thing"
-    na "it turn out it was a beak mask"
-    na "Suddenly Kaneko proppel herself forwad and then stab [pname]\nright into the heart with her beak mask !!!"
+    na "it turn out it was a pigeon mask and a knife"
+    na "Suddenly Kaneko pushed herself forward and then stab [pname]\nright to the heart with her pigeon mask on !!!"
     play sound stabs
     "*Schlp Schlp Schlp*"
     "*Schlp Schlp Schlp Schlp*"
@@ -338,10 +338,10 @@ label end:
     na "Finally after they know each other [pname] go back to its own house"
     "Meanwhile"
     ka "Kukukukuku Finally i got a new subject!"
-    ka "A new slave !! a new citizen my kingdom the Squabbers Kingdom !!!!"
+    ka "A new slave !! a new citizen for my kingdom the Squabbers Kingdom !!!!"
     "...."
     "......"
-    "Congratulation You, Finished The Game"
+    "Congratulation [pname],You Finished The Game"
     "Thankyou For Playing"
     stop sound
     stop music fadeout 1.0
